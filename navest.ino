@@ -309,7 +309,7 @@ long myMap(long x, long in_min, long in_max, long out_min, long out_max)
 void setup() {
 //Serial.begin(9600);
 
-randomSeed(analogRead(A0)); 
+randomSeed(analogRead(A5)); 
 int d=random(1, 11)*500;
 delay(d);
 //delay(1000);
